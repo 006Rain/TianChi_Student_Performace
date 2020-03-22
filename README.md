@@ -2,9 +2,14 @@
 
 
 ## 文件
-Predict.py: 代码
-
 StudentPerformance.csv: 数据
+
+DataAnalysis.py: 数据分析代码
+
+DataAnalysis_Output_Figure.png: 数据分析部分结果
+
+Predict.py: 成绩预测代码
+
 
 ## 数据集简介: 
 该数据集包含了305个男生和175个女生的基本情况和课堂课外表现的量化数据，最终目的是通过这些特征来预测学生的最终学术评测成绩。
