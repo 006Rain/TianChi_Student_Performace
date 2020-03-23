@@ -8,7 +8,7 @@ df = pd.read_csv( './StudentPerformance.csv' )
 
 #Feature Enginnering 特征工程
 X = df.drop( 'Class', axis=1 )
-X = pd.get_dummies( X ) #将分类型特征转换为数字
+X = pd.get_dummies( X ) #将分类型特征转换成哑变量
 Y = df['Class']
 
 #划分训练和数据集
